@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://eranfixer.com/sitemap.xml
+
+# Crawl-delay for courtesy
+Crawl-delay: 1
+
+# Block common spam bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
